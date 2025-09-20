@@ -5,8 +5,8 @@ import google.generativeai as genai
 import json
 
 # load from Replit secrets / env
-TELEGRAM_TOKEN = os.environ['TELEGRAM_TOKEN']
-GEMINI_API_KEY = os.environ['GEMINI_API_KEY']
+TELEGRAM_TOKEN = os.environ['8006163958:AAEvj8-O73P8d8Ts6_XJTePunI45MKHLbKo']
+GEMINI_API_KEY = os.environ['AIzaSyDqTxAhipBQFswAn9anRUwJuM2jcm0Jt2w']
 
 # init
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
